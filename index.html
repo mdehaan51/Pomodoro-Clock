@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id = "clockcontainer">
+<h1 id = "header">Pomodoro Clock</h1>
+<div id = descLine>What is a Pomodoro Clock? Click <a class = "link" href = "https://en.wikipedia.org/wiki/Pomodoro_Technique">HERE</a> to find out!
+</div>
+<div class = "buttonBar">
+  <div id = "clock">25:00</div>
+  <div><input id = startButton type = "button" class = "startbutton" onclick = "runClock()" value = "Click to Start"></div>
+<div class = "col-xs-12">
+  <span class = buttonLabels>Break Length</span>
+  <span class = buttonLabels>Session Length</span>
+<div  class = "col-xs-12">
+  <span><input id = "breakLengthNeg" type = "button" class = "button buttonnegative" onclick = "decreaseNum('breakLength')" value = "-"></span>
+  <span id = "breakLength" class = "settingNumber">5</span>
+  <span><input id = "breakLengthPos" type = "button" class = "button buttonpositive" onclick = "increaseNum('breakLength')" value = "+">
+  </span>
+  <span>
+  <input id = "sessionLengthNeg" type = "button" class = "button buttonnegative" onclick = "decreaseNum('clockTime')" value = "-">
+  </span>
+  <span id = "clockTime" class = "settingNumber">25
+  </span>
+  <span>
+  <input id = "sessionLengthPos" type = "button" class = "button buttonpositive" onclick = "increaseNum('clockTime')"value = "+">
+  </span>
+</div>
+</div>
+  </div>
+
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

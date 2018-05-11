@@ -1,0 +1,82 @@
+body{
+  background-color: lightgrey;
+}
+#clockcontainer{
+  background-color: DimGrey;
+  margin: 100px auto auto auto;
+  width: 700px;
+  color: Azure;
+  padding: 5px 0px 50px 0px;
+  border: 2px solid black;
+}
+
+#header{
+  text-align: center;
+  font-size: 45px;
+  margin-top: 50px;
+}
+#descLine{
+  text-align: center;
+  font-size: medium;
+}
+.link{
+  color: white;
+}
+#startButton{
+  margin-bottom: 10px;
+  width: auto;
+}
+#startButton:hover{
+  background-color:grey;
+  cursor: pointer;
+}
+.buttonBar{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  margin-top: 30px;
+  font-size: large;
+}
+.buttonLabels{
+  font-weight: bold;
+  padding-right: 4px;
+  padding-left: 10px;
+}
+.button{
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+.buttonnegative{
+  background-color: red;
+  
+}
+.buttonnegative:hover{
+  background-color: tomato;
+  cursor: pointer;
+}
+.buttonpositive{
+  background-color: green;
+}
+.buttonpositive:hover{
+  background-color:OliveDrab;
+  cursor: pointer;
+}
+.settingNumber{
+  font-weight: bold;
+  font-size: 20px
+}
+
+#clock{
+  text-align: center;
+  margin: auto auto 10px auto;
+  font-size: 72px;
+  background-color: black;
+  width: 100%;
+  color: MediumSpringGreen;
+}
